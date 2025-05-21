@@ -1,0 +1,43 @@
+<main style="padding: 20px; background-color: #f1f8e9; border-radius: 10px; max-width: 700px; margin: auto;">
+
+  <h2 style="text-align: center; color: #388e3c;">📞 اتصل بفادي</h2>
+
+  <!-- قائمة منسدلة للتنقل بين الصفحات -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <label for="page-select" style="font-weight: bold;">🔽 اختر صفحة للتنقل:</label>
+    <select id="page-select" onchange="location = this.value;" style="padding: 8px 12px; border-radius: 6px; margin-right: 10px;">
+      <option selected disabled>-- اختر صفحة --</option>
+      <option value="index.html">الرئيسية</option>
+      <option value="programs.html">برامج التمارين</option>
+      <option value="nutrition.html">نصائح غذائية</option>
+      <option value="goals.html">أهداف اللياقة</option>
+      <option value="contact.html">اتصل بنا</option>
+    </select>
+  </div>
+
+  <!-- نموذج التواصل -->
+  <form style="background-color: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <label style="font-weight: bold;">الاسم:</label><br />
+    <input type="text" style="width: 100%; padding: 10px; margin: 8px 0; border-radius: 5px; border: 1px solid #ccc;" /><br />
+
+    <label style="font-weight: bold;">البريد الإلكتروني:</label><br />
+    <input type="email" style="width: 100%; padding: 10px; margin: 8px 0; border-radius: 5px; border: 1px solid #ccc;" /><br />
+
+    <label style="font-weight: bold;">رسالتك:</label><br />
+    <textarea style="width: 100%; padding: 10px; height: 120px; border-radius: 5px; border: 1px solid #ccc; resize: vertical;"></textarea><br />
+
+    <button type="submit" style="background-color: #388e3c; color: white; padding: 10px 20px; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">
+      📤 إرسال
+    </button>
+  </form>
+
+  <!-- روابط السوشال -->
+  <div style="text-align: center; margin-top: 30px;">
+    <p>تابعنا على:</p>
+    <ul style="list-style: none; padding: 0;">
+      <li><a href="#" style="color: #e1306c; text-decoration: none; font-weight: bold;">📸 إنستغرام</a></li>
+      <li><a href="#" style="color: #ff0000; text-decoration: none; font-weight: bold;">▶️ يوتيوب</a></li>
+    </ul>
+  </div>
+
+</main>
